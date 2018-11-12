@@ -1,5 +1,11 @@
-.links-button
-  .button.button_dark
-    a(href="https://online.raiffeisen.ru/").button__text Raiffeisen-Online
-  .button.button_small
-    a(href="r-dealer.html").button__text R-Dealer
+mixin links-button(content, params)
+  .links-button&attributes(attributes)
+    +links-button__item({type:"dark", href:"", title:"Raiffeisen-Online"})
+    +links-button__item({type:"small", href:"", title:"R-Dealer"})
+  block
+
+
+mixin links-button__item(content, params)
+  .links-button__item(class=`button_${content.type}`).button&attributes(attributes)
+    a(href=content.href).links-button__text.button__text!=content.title
+  block

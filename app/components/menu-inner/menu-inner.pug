@@ -1,31 +1,30 @@
-mixin menu-inner( current_page, current_city )
-  .menu-inner(data-city=current_city)
+mixin menu-inner__item(content, params)
+  if content.type=="line"
+    li.menu-inner__item.menu-inner__item-line
+  else 
+    li.menu-inner__item&attributes(attributes)
+      a(href=content.href)!=content.title
+
+mixin menu-inner__download(content, params)
+  .menu-inner__download&attributes(attributes)
+    a(href=content.button.href).menu-inner__download-button
+      .menu-inner__download-button-img
+      .menu-inner__download-button-text!=content.button.title 
+    p.menu-inner__footer!=content.text
+      a(href=content.link.href, target="_blank").menu-inner__footer-link!=content.link.title
+
+mixin menu-inner(content, params)
+  .menu-inner&attributes(attributes)
     .menu-inner__wrapper
       .menu-inner__button-close
       ul.menu-inner__list
-        li( class=( "menu-inner__item " + ( current_page == "preserve-and-increase" ? "menu-inner__item_choosed" : "" )) )
-          a(href="preserve-and-increase.html",data-use-city="true") Сохранить и приумножить
-        li( class=( "menu-inner__item " + ( current_page == "get-financing" ? "menu-inner__item_choosed" : "" )) )
-          a(href="get-financing.html",data-use-city="true") Получить финансирование
-        li( class=( "menu-inner__item " + ( current_page == "business-solutions" ? "menu-inner__item_choosed" : "" )) )
-          a(href="business-solutions.html") Решение для вашего бизнеса
-        li( class=( "menu-inner__item " + ( current_page == "banking-services" ? "menu-inner__item_choosed" : "" )) )
-          a(href="banking-services.html") Банковское обслуживание
-        li( class=( "menu-inner__item " + ( current_page == "family-solutions" ? "menu-inner__item_choosed" : "" )) )
-          a(href="family-solutions.html") Решения для вашей семьи и консалтинг
-        li.menu-inner__item.menu-inner__item-line
-        li( class=( "menu-inner__item " + ( current_page == "about" ? "menu-inner__item_choosed" : "" )) )
-          a(href="about.html") О нас
-        li( class=( "menu-inner__item " + ( current_page == "contacts" ? "menu-inner__item_choosed" : "" )) )
-          a(href="contacts.html") Контактная информация
-        include ../links-button/links-button.pug
-      .menu-inner__download
-        .menu-inner__download-button
-          a(href="#").link_button
-            .menu-inner__download-button-img
-            .menu-inner__download-button-text Скачать «Услуги FWR»
-        p.menu-inner__footer
-          |&copy;&nbsp;2009-2017&nbsp;АО &laquo;Райффайзенбанк&raquo; <br>
-          a(href="https://www.raiffeisen.ru" target="_blank").menu-inner__footer-link
-            |www.raiffeisen.ru
-  block
+        +menu-inner__item({href:"", title:"Сохранить и приумножить"})
+        +menu-inner__item({href:"", title:"Получить финансирование"})
+        +menu-inner__item({href:"", title:"Решение для вашего бизнеса"})
+        +menu-inner__item({href:"", title:"Банковское обслуживание"})
+        +menu-inner__item({href:"", title:"Решения для вашей семьи и консалтинг"})
+        +menu-inner__item({type:"line"})
+        +menu-inner__item({href:"", title:"О нас"})
+        +menu-inner__item({href:"", title:"Контактная информация"})
+        +links-button
+      +menu-inner__download({button: {href:"#", title:"Скачать «Услуги FWR»"}, text:"&copy;&nbsp;2009-2017&nbsp;АО &laquo;Райффайзенбанк&raquo;", link:{ href :"https://www.raiffeisen.ru", title :" www.raiffeisen.ru" }})

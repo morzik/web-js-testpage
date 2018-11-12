@@ -5,9 +5,14 @@ mixin header(addLinksButton)
       .header__logo 
         a(href="index.html").link_button
     .header__right
-      a(href="tel:+7-495-662-7677").header__phone +7 (495) 662 76 77
+      +header__phone({href:"tel:+74956627677", title:"+7 (495) 662 76 77"})
       .header__separator
       include ../langs/langs.pug
       if addLinksButton
-        include ../links-button/links-button.pug
+        +links-button
+        //- include ../links-button/links-button.pug
     .header__menu
+
+
+mixin header__phone(content,params)
+  a(href=content.href).header__phone!=content.title
