@@ -86,7 +86,8 @@ $lang-item_pl: 14px;
 $lang-item_pb: 14px;
 
 .langs__items {
-    padding: $lang-item_pb 30px $lang-item_pb $lang-item_pl;
+    // padding: $lang-item_pb 30px $lang-item_pb $lang-item_pl;
+    padding: $lang-item_pl;
     background: #fdfdfd;
     position: absolute;
     top: - $lang-item_pl;
@@ -107,7 +108,8 @@ $lang-item_pb: 14px;
     margin-bottom: 10px;
     cursor: pointer;
 	width: 16px;
-	
+	padding-right: 16px;
+
     &:hover{
         opacity: 0.8;
     }
