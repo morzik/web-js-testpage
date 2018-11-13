@@ -295,12 +295,12 @@ $list-p_desktop: 40px;
 
 }
 
-.menu-inner__item_choosed{
+.menu-inner__item_active{
 	// font-weight: 900;
 	position: relative;
 	opacity: 0.5;
 	display: inline-block;
-	margin:  0;
+	// margin:  0;
 	@include FONT-MENU_ACTIVE();
 
 	&:after {
@@ -317,7 +317,6 @@ $list-p_desktop: 40px;
 	}
 
 	@include DESKTOP-S{
-		margin: 0;
 		
 		&:after{
 			height: 10rem;
@@ -325,7 +324,6 @@ $list-p_desktop: 40px;
 	}
 
 	@include TABLET-N{
-		margin: 0;
 
 		&:nth-last-of-type(1){
 			margin-bottom: 23px;
@@ -336,10 +334,6 @@ $list-p_desktop: 40px;
 		margin-bottom: 16px;
 		margin-top: -12px;
 	}
-
-	@include DESKTOP-N{
-		margin-bottom: 0;
-	}
 }
 
 
@@ -349,6 +343,7 @@ $list-p_desktop: 40px;
     cursor: auto;
     background: #d7d3d5;
     margin: 38px 0;
+    pointer-events: none;
 
     @include PHONE-N{
     	margin: 28px 0;
@@ -574,7 +569,7 @@ $list-p_desktop: 40px;
 	.menu-inner__item{
 		font-weight: 100;
 	}
-	.menu-inner__item_choosed{
+	.menu-inner__item_active{
 		font-weight: 100;
 	}
 }
@@ -583,7 +578,7 @@ $list-p_desktop: 40px;
 	.menu-inner__item{
 		font-weight: 100;
 	}
-	.menu-inner__item_choosed{
+	.menu-inner__item_active{
 		font-weight: 100;
 	}
 }

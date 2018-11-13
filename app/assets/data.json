@@ -13,7 +13,7 @@
     {
       "href":"",
       "title":"Решение для вашего бизнеса",
-      "content_id": "solution_for_your_business"
+      "content_id": "solution_business"
     },
     {
       "href":"",
@@ -23,7 +23,7 @@
     {
       "href":"",
       "title":"Решения для вашей семьи и консалтинг",
-      "content_id":"solutions_for_your_family_and_consulting"
+      "content_id":"solutions_and_consulting"
     },
     {
       "type":"line"
@@ -93,33 +93,38 @@
 
     "get_financing": {
       "title":"Получить финансирование",
-      "text":"Обслуживание в московском офисе Friedrich Wilhelm Raiffeisen сочетает в себе преимущества индивидуального клиентского сервиса в Москве с инвестиционными решениями, разработанными в центральном офисе Группы Райффайзен в Вене. <br><br> Каждый клиент российского офиса Friedrich Wilhelm Raiffeisen получает персонального менеджера в Москве, который осуществляет открытие и обслуживание инвестиционных счетов в Австрии, а также обеспечивает доступ к международному рынку ценных бумаг через платформы в России и за рубежом.<br> Специалисты Friedrich Wilhelm Raiffeisen в Австрии разрабатывают индивидуальные стратегии доверительного управления активами и осуществляют формирование индивидуального портфеля, отвечающего инвестиционным потребностям клиента. <br><br> Friedrich Wilhelm Raiffeisen оказывает брокерские, консультационные и аналитические услуги, предоставляет гибкие депозитные предложения и обслуживает счета в 11 валютах. <br><br> Узнать об инвестиционных решениях Friedrich Wilhelm Raiffeisen <a class='inner-part__link' href='' target='_blank'>в Вене</a>",
-      "image":"images/inner-illustrations-5.png"
+      "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio rem, incidunt consequatur qui illo, harum adipisci consequuntur repellendus optio aperiam esse sit fugit omnis! Voluptates sint voluptas architecto. Blanditiis, expedita?<br><br> Узнать об инвестиционных решениях Friedrich Wilhelm Raiffeisen <a class='inner-part__link' href='' target='_blank'>в Вене</a>",
+      "image":"images/inner-illustrations-1.png"
     },
-    "solution_for_your_business":{
+
+    "solution_business":{
       "title":"Решение для вашего бизнеса",
-      "text":"Обслуживание в московском офисе Friedrich Wilhelm Raiffeisen сочетает в себе преимущества индивидуального клиентского сервиса в Москве с инвестиционными решениями, разработанными в центральном офисе Группы Райффайзен в Вене. <br><br> Каждый клиент российского офиса Friedrich Wilhelm Raiffeisen получает персонального менеджера в Москве, который осуществляет открытие и обслуживание инвестиционных счетов в Австрии, а также обеспечивает доступ к международному рынку ценных бумаг через платформы в России и за рубежом.<br> Специалисты Friedrich Wilhelm Raiffeisen в Австрии разрабатывают индивидуальные стратегии доверительного управления активами и осуществляют формирование индивидуального портфеля, отвечающего инвестиционным потребностям клиента. <br><br> Friedrich Wilhelm Raiffeisen оказывает брокерские, консультационные и аналитические услуги, предоставляет гибкие депозитные предложения и обслуживает счета в 11 валютах. <br><br> Узнать об инвестиционных решениях Friedrich Wilhelm Raiffeisen <a class='inner-part__link' href='' target='_blank'>в Вене</a>",
-      "image":"images/inner-illustrations-5.png"
+      "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore sed, dicta incidunt corporis id necessitatibus voluptatibus, nesciunt ea, impedit eius animi nobis eum similique numquam tenetur laborum vel. Provident, cumque! <br><br> Узнать об инвестиционных решениях Friedrich Wilhelm Raiffeisen <a class='inner-part__link' href='' target='_blank'>в Вене</a>",
+      "image":"images/inner-illustrations-2.png"
     },
+    
     "banking_service":{
       "title":"Банковское обслуживание",
-      "text":"Обслуживание в московском офисе Friedrich Wilhelm Raiffeisen сочетает в себе преимущества индивидуального клиентского сервиса в Москве с инвестиционными решениями, разработанными в центральном офисе Группы Райффайзен в Вене. <br><br> Каждый клиент российского офиса Friedrich Wilhelm Raiffeisen получает персонального менеджера в Москве, который осуществляет открытие и обслуживание инвестиционных счетов в Австрии, а также обеспечивает доступ к международному рынку ценных бумаг через платформы в России и за рубежом.<br> Специалисты Friedrich Wilhelm Raiffeisen в Австрии разрабатывают индивидуальные стратегии доверительного управления активами и осуществляют формирование индивидуального портфеля, отвечающего инвестиционным потребностям клиента. <br><br> Friedrich Wilhelm Raiffeisen оказывает брокерские, консультационные и аналитические услуги, предоставляет гибкие депозитные предложения и обслуживает счета в 11 валютах. <br><br> Узнать об инвестиционных решениях Friedrich Wilhelm Raiffeisen <a class='inner-part__link' href='' target='_blank'>в Вене</a>",
-      "image":"images/inner-illustrations-5.png"
+      "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem recusandae et quod beatae quae delectus consequatur officia dolor illum earum, perspiciatis dolores, odit quisquam cumque, doloribus non magni accusamus alias.<br><br> Узнать об инвестиционных решениях Friedrich Wilhelm Raiffeisen <a class='inner-part__link' href='' target='_blank'>в Вене</a>",
+      "image":"images/inner-illustrations-3.png"
     },
-    "solutions_for_your_family_and_consulting":{
+    
+    "solutions_and_consulting":{
       "title":"Решения для вашей семьи и консалтинг",
-      "text":"Обслуживание в московском офисе Friedrich Wilhelm Raiffeisen сочетает в себе преимущества индивидуального клиентского сервиса в Москве с инвестиционными решениями, разработанными в центральном офисе Группы Райффайзен в Вене. <br><br> Каждый клиент российского офиса Friedrich Wilhelm Raiffeisen получает персонального менеджера в Москве, который осуществляет открытие и обслуживание инвестиционных счетов в Австрии, а также обеспечивает доступ к международному рынку ценных бумаг через платформы в России и за рубежом.<br> Специалисты Friedrich Wilhelm Raiffeisen в Австрии разрабатывают индивидуальные стратегии доверительного управления активами и осуществляют формирование индивидуального портфеля, отвечающего инвестиционным потребностям клиента. <br><br> Friedrich Wilhelm Raiffeisen оказывает брокерские, консультационные и аналитические услуги, предоставляет гибкие депозитные предложения и обслуживает счета в 11 валютах. <br><br> Узнать об инвестиционных решениях Friedrich Wilhelm Raiffeisen <a class='inner-part__link' href='' target='_blank'>в Вене</a>",
-      "image":"images/inner-illustrations-5.png"
+      "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis porro sunt aperiam saepe magni. Voluptatum recusandae porro facilis, quae sint neque accusantium similique repellat fugiat expedita. Perferendis recusandae, nihil. Est.<br><br> Узнать об инвестиционных решениях Friedrich Wilhelm Raiffeisen <a class='inner-part__link' href='' target='_blank'>в Вене</a>",
+      "image":"images/inner-illustrations-4.png"
     },
+    
     "about_us":{
       "title":"О Нас",
-      "text":"Обслуживание в московском офисе Friedrich Wilhelm Raiffeisen сочетает в себе преимущества индивидуального клиентского сервиса в Москве с инвестиционными решениями, разработанными в центральном офисе Группы Райффайзен в Вене. <br><br> Каждый клиент российского офиса Friedrich Wilhelm Raiffeisen получает персонального менеджера в Москве, который осуществляет открытие и обслуживание инвестиционных счетов в Австрии, а также обеспечивает доступ к международному рынку ценных бумаг через платформы в России и за рубежом.<br> Специалисты Friedrich Wilhelm Raiffeisen в Австрии разрабатывают индивидуальные стратегии доверительного управления активами и осуществляют формирование индивидуального портфеля, отвечающего инвестиционным потребностям клиента. <br><br> Friedrich Wilhelm Raiffeisen оказывает брокерские, консультационные и аналитические услуги, предоставляет гибкие депозитные предложения и обслуживает счета в 11 валютах. <br><br> Узнать об инвестиционных решениях Friedrich Wilhelm Raiffeisen <a class='inner-part__link' href='' target='_blank'>в Вене</a>",
-      "image":"images/inner-illustrations-5.png"
+      "text":"Обслуживание в московском офисе Friedrich Wilhelm Raiffeisen сочетает в себе преимущества равления активами и осуществляют формирование индивидуального портфеля, отвечающего инвестиционным потребностям клиента. <br><br> Friedrich Wilhelm Raiffeisen оказывает брокерские, консультационные и аналитические услуги, предоставляет гибкие депозитные предложения и обслуживает счета в 11 валютах. <br><br> Узнать об инвестиционных решениях Friedrich Wilhelm Raiffeisen <a class='inner-part__link' href='' target='_blank'>в Вене</a>",
+      "image":"images/inner-illustrations-1.png"
     },
+    
     "contact_information":{
       "title":"Контактная информация",
-      "text":"Обслуживание в московском офисе Friedrich Wilhelm Raiffeisen сочетает в себе преимущества индивидуального клиентского сервиса в Москве с инвестиционными решениями, разработанными в центральном офисе Группы Райффайзен в Вене. <br><br> Каждый клиент российского офиса Friedrich Wilhelm Raiffeisen получает персонального менеджера в Москве, который осуществляет открытие и обслуживание инвестиционных счетов в Австрии, а также обеспечивает доступ к международному рынку ценных бумаг через платформы в России и за рубежом.<br> Специалисты Friedrich Wilhelm Raiffeisen в Австрии разрабатывают индивидуальные стратегии доверительного управления активами и осуществляют формирование индивидуального портфеля, отвечающего инвестиционным потребностям клиента. <br><br> Friedrich Wilhelm Raiffeisen оказывает брокерские, консультационные и аналитические услуги, предоставляет гибкие депозитные предложения и обслуживает счета в 11 валютах. <br><br> Узнать об инвестиционных решениях Friedrich Wilhelm Raiffeisen <a class='inner-part__link' href='' target='_blank'>в Вене</a>",
-      "image":"images/inner-illustrations-5.png"
+      "text":"Обслуживание в московском офисе Friedrich Wilhelm Raiffeisen сочетает в себе преимущества индивидуального клиентского сервиса в Москве с инвестиционными решениями, разработанными в центральном офисе Группы Райффайзен в Вене. <br><br> Каждый клиент российскогнвестиционным потребностям клиента. <br><br> Friedrich Wilhelm Raiffeisen оказывает брокерские, консультационные и аналитические услуги, предоставляет гибкие депозитные предложения и обслуживает счета в 11 валютах. <br><br> Узнать об инвестиционных решениях Friedrich Wilhelm Raiffeisen <a class='inner-part__link' href='' target='_blank'>в Вене</a>",
+      "image":"images/inner-illustrations-2.png"
     }
   }
 
