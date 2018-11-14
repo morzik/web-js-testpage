@@ -7,10 +7,13 @@ $(function(){
     	console.log( "error", error_message );
   	});
 
-	$(window).on('change-page', function(event, content_id){
-		$('title').text(content_id);
+  $(window).on('change-page', function(event, content_id){
+    $('title').text(content_id);
     $(window).trigger("page-changed", content_id );
-	});
+  });
+	$(window).on('change-language', function(event, language){
+    console.log(language);
+  });
 
 });
 

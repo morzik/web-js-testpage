@@ -16,12 +16,20 @@ $(window).on("main:ready", function(event, data){
 	};
 
 	// при клике на элемент открыть список
+	$element.on('click', function(event){
+	    // $list.toggle();
+	    $(this).toggleClass('langs_active');
+	});
 
-	// $element.on('click', function(event){
-	// 	event.preventDefault();
-	// 	$(this).toggleClass('langs_active');
-	// 	console.log(this);
-	// })
+
 	// при клике на один из пунктов списка взять его заголовок и передать <p>, при этом скрыть список
+	$(".langs__item").on('click', function() {
+		var language = $(this).html();
+	    $(".langs p").html(language);
+	    // $list.hide();
+	    // $element.removeClass('langs_active');
+	    if( language ) $(window).trigger('change-language', language);
+	}); 
 
+	
 });
