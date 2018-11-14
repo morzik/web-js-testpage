@@ -60,7 +60,11 @@ $(window).on("main:ready", function(event, data){
 			language = language || def_lang;
 			$DOM_menu_items.forEach(function($e,i){
 				// console.log(i, '>>', $e.data('translate') );
-				if (!$e.data( 'translate' )[language] == '') $('a', $e ).html( $e.data( 'translate' )[language] );
+				if (!$e.data( 'translate' )[language] == '') {
+					$('a', $e ).html( $e.data( 'translate' )[language] );
+				} else {
+					$('a', $e ).html( $e.data( 'translate' )[def_lang] );
+				}
 			});
 
 		})
