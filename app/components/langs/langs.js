@@ -17,7 +17,6 @@ $(window).on("main:ready", function(event, data){
 
 	// при клике на элемент открыть список
 	$element.on('click', function(event){
-	    // $list.toggle();
 	    $(this).toggleClass('langs_active');
 	});
 
@@ -26,8 +25,6 @@ $(window).on("main:ready", function(event, data){
 	$(".langs__item").on('click', function() {
 		var language = $(this).html();
 	    $(".langs p").html(language);
-	    // $list.hide();
-	    // $element.removeClass('langs_active');
 	    if( language ) $(window).trigger('change-language', language);
 	}); 
 

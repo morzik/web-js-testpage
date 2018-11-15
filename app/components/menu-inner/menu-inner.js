@@ -10,16 +10,6 @@ $(window).on("main:ready", function(event, data){
 	//осносвной список меню
 	var $list = $('.menu-inner__list', $element );
 	
-
-	// //текст в кнопке скачивания списка усуг
-	// var $download_button_text = $('.menu-inner__download-button-text');
-	// $download_button_text.data('translate', data.footer.button.title);
-
-	// //текст в футере
-	// var $footer_text = $('.menu-inner__footer');
-	// $footer_text.data('translate', data.footer.text);
-
-	
 	//список DOM-элемента меню
 	var $DOM_menu_items = [];
 
@@ -70,9 +60,6 @@ $(window).on("main:ready", function(event, data){
 				var translate = $e.data( 'translate' );
 				$('a', $e ).html( translate[language] || translate[def_lang]);
 			});
-
-			// $download_button_text.html(data.footer.button.title[language]||data.footer.button.title[def_lang]);
-			// $footer_text.html(data.footer.text[language]||data.footer.text[def_lang]);
 		})
 	;
 
