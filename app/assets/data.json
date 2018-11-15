@@ -5,8 +5,8 @@
       "href":"",
       "title":{
         "ru": "Сохранить и приумножить",
-        "en": "Сохранить и приумножить en",
-        "de": "Сохранить и приумножить de"
+        "en": "Save and Grow",
+        "de": "Speichern und wachsen"
       },
       "content_id": "save_and_grow"
     },
@@ -14,8 +14,8 @@
       "href":"",
       "title":{
         "ru":"Получить финансирование",
-        "en":"" ,
-        "de":"Получить финансирование de"
+        "en":"Get financing",
+        "de":"Finanzierung erhalten"
       },
       "content_id": "get_financing"
     },
@@ -23,8 +23,8 @@
       "href":"",
       "title":{
         "ru":"Решение для вашего&nbsp;бизнеса",
-        "en":"Решение для вашего&nbsp;бизнеса en",
-        "de":"Решение для вашего&nbsp;бизнеса de"
+        "en":"Solution for your business",
+        "de":"Lösung für Ihr Unternehmen"
       },
       "content_id": "solution_business"
     },
@@ -32,8 +32,8 @@
       "href":"",
       "title":{
         "ru":"Банковское обслуживание",
-        "en":"Банковское обслуживание en",
-        "de":"Банковское обслуживание de"
+        "en":"Banking service",
+        "de":"Bankdienst"
       },
       "content_id":"banking_service"
     },
@@ -41,8 +41,8 @@
       "href":"",
       "title":{
         "ru":"Решения для вашей семьи и консалтинг",
-        "en":"Решения для вашей семьи и консалтинг en",
-        "de":"Решения для вашей семьи и консалтинг de"
+        "en":"Solutions for your family and consulting",
+        "de":"Lösungen für Ihre Familie und Beratung"
       },
       "content_id":"solutions_and_consulting"
     },
@@ -53,8 +53,8 @@
       "href":"",
       "title":{
         "ru":"О нас",
-        "en":"О нас en",
-        "de":"О нас de"
+        "en":"About Us",
+        "de":"Über uns"
       },
       "content_id":"about_us"
     },
@@ -62,32 +62,43 @@
       "href":"",
       "title":{
         "ru":"Контактная информация",
-        "en":"Контактная информация en",
-        "de":"Контактная информация de"
+        "en":"Contact Information",
+        "de":"Kontaktinformationen"
       },
       "content_id":"contact_information"
     }
   ],
 
-  "footer":{
 
-    "button":{
-      "href":"#",
-      "title":"Скачать «Услуги FWR»"
-    },
-
-    "text":"&copy;&nbsp;2009-2017&nbsp;АО &laquo;Райффайзенбанк&raquo;",
-    
-    "link":{
-      "href":"https://www.raiffeisen.ru",
-      "title":" www.raiffeisen.ru"
+  "download":{
+    "href":"#",
+    "title":{
+      "ru":"Скачать &laquo;Услуги FWR&raquo;",
+      "en":"Download &laquo;FWR Services&raquo;",
+      "de":"Download &laquo;FWR-Dienste&raquo;"
     }
-  
   },
 
+  "footer":{
+    "text":{
+      "ru":"&copy;&nbsp;2009-2017&nbsp;АО &laquo;Райффайзенбанк&raquo; <a class='menu-inner__footer-link', href='https://www.raiffeisen.ru'>www.raiffeisen.ru</a>",
+      "en":"&copy;&nbsp;2009-2017&nbsp;JSC &laquo;Raiffeisenbank&raquo; <a class='menu-inner__footer-link', href='https://www.raiffeisen.ru'>www.raiffeisen.ru</a>",
+      "de":"&copy;&nbsp;2009-2017&nbsp;AG &laquo;Raiffeisenbank&raquo; <a class='menu-inner__footer-link', href='https://www.raiffeisen.ru'>www.raiffeisen.ru</a>"
+    }
+  },
+
+
   "phone":{
-    "href":"tel:+74956627677",
-    "title":"+7 (495) 662 76 77"
+    "href":{
+      "ru":"tel:+74956627677",
+      "en":"tel:+75556620000",
+      "de":"tel:+73503057655"
+    },
+    "title":{  
+      "ru":"+7 (495) 662 76 77",
+      "en":"+7 (555) 662 00 00",
+      "de":"+7 (350) 305 76 55"
+    }
   },
 
   "language":[

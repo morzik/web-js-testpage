@@ -5,7 +5,7 @@ mixin header(addLinksButton)
       .header__logo 
         a(href="index.html").link_button
     .header__right
-      +header__phone({href:"tel:+74956627677", title:"+7 (495) 662 76 77"})
+      a(href='tel:+74956627677', data-trnslt='phone.title', data-trnslt-attr='phone.href').header__phone +7 (495) 662 76 77
       .header__separator
       include ../langs/langs.pug
       if addLinksButton
@@ -14,5 +14,3 @@ mixin header(addLinksButton)
     .header__menu
 
 
-mixin header__phone(content,params)
-  a(href=content.href).header__phone!=content.title

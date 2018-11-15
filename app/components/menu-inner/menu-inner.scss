@@ -537,6 +537,7 @@ $list-p_desktop: 40px;
 	@include font( $FONT-BASE, 12px, 12px);
     text-align: left;
     width: 100%;
+    display: block;
     color: $sdark;
     text-decoration: none;
 
