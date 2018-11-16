@@ -4,7 +4,8 @@ $(function(){
 	  // console.log( "success", data );
 		$(window)
       .trigger("main:ready", data)
-      .trigger('language-changed')
+      .trigger('language-changed', data.default_lang)
+      .trigger("page-changed", data.default_page )
     ;
     
 	}).fail(function(e,error_message) {

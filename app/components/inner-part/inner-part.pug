@@ -1,14 +1,18 @@
-mixin inner-part-column(content, params)
-  .inner-part-column&attributes(attributes)
-    block
 
 mixin inner-part-content(content, params)
   .inner-part-content&attributes(attributes)
     h2.inner-part__title!=content.title 
-    +inner-part-column!=content.text
+    .inner-part-column!=content.text
 
 mixin inner-part(content, params)
   .inner-part&attributes(attributes)
+    block
+
+mixin inner-part-template(content,params)
+  script( id="template-main-content" type="text/x-handlebars-template")
     .inner-part__image
-      img(src=content.image)
-    +inner-part-content({title:content.title, text:content.text})
+      img(src="{{image}}")
+    .inner-part-content
+      h2.inner-part__title {{title}}
+      .inner-part-column {{{text}}}
+  block

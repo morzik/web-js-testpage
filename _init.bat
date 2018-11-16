@@ -1,4 +1,4 @@
 @echo off
 
 call npm install
-call bower install
+rem call bower install
