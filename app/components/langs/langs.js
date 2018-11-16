@@ -6,6 +6,8 @@ $(window).on("main:ready", function(event, data){
 
 	var $list = $('.langs__items', $element );
 
+	var def_lang = data.default_lang;
+
 	console.log('language', data.language);
 
 

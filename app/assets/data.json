@@ -1,6 +1,8 @@
 {
   "default_lang":"ru",
   "default_page":"save_and_grow",
+  "page":"",
+  "lang":"",
   "menu":[
     {
       "href":"",
@@ -130,44 +132,100 @@
   "content":{
     
     "save_and_grow": {
-      "title":"Сохранить и приумножить",
-      "text":"<p>Обслуживание в московском офисе Friedrich Wilhelm Raiffeisen сочетает в себе преимущества индивидуального клиентского сервиса в Москве с инвестиционными решениями, разработанными в центральном офисе Группы Райффайзен в Вене.</p> <p>Каждый клиент российского офиса Friedrich Wilhelm Raiffeisen получает персонального менеджера в Москве, который осуществляет открытие и обслуживание инвестиционных счетов в Австрии, а также обеспечивает доступ к международному рынку ценных бумаг через платформы в России и за рубежом.</p> <p>Специалисты Friedrich Wilhelm Raiffeisen в Австрии разрабатывают индивидуальные стратегии доверительного управления активами и осуществляют формирование индивидуального портфеля, отвечающего инвестиционным потребностям клиента.</p> <p>Friedrich Wilhelm Raiffeisen оказывает брокерские, консультационные и аналитические услуги, предоставляет гибкие депозитные предложения и обслуживает счета в 11 валютах.</p> <p>Узнать об инвестиционных решениях Friedrich Wilhelm Raiffeisen <a class='inner-part__link' href='' target='_blank'>в Вене</a></p>",
-      "image":"images/inner-illustrations-5.png"
-    },
-
-    "get_financing": {
-      "title":"Получить финансирование",
-      "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio rem, incidunt consequatur qui illo, harum adipisci consequuntur repellendus optio aperiam esse sit fugit omnis! Voluptates sint voluptas architecto. Blanditiis, expedita?<br><br> Узнать об инвестиционных решениях Friedrich Wilhelm Raiffeisen <a class='inner-part__link' href='' target='_blank'>в Вене</a>",
+      "title":{
+        "ru": "Сохранить и приумножить",
+        "en": "Save and Grow",
+        "de": "Speichern und wachsen"
+      },
+      "text":{
+        "ru":"<p>Обслуживание в московском офисе Friedrich Wilhelm Raiffeisen сочетает в себе преимущества индивидуального клиентского сервиса в Москве с инвестиционными решениями, разработанными в центральном офисе Группы Райффайзен в Вене.</p> <p>Каждый клиент российского офиса Friedrich Wilhelm Raiffeisen получает персонального менеджера в Москве, который осуществляет открытие и обслуживание инвестиционных счетов в Австрии, а также обеспечивает доступ к международному рынку ценных бумаг через платформы в России и за рубежом.</p> <p>Специалисты Friedrich Wilhelm Raiffeisen в Австрии разрабатывают индивидуальные стратегии доверительного управления активами и осуществляют формирование индивидуального портфеля, отвечающего инвестиционным потребностям клиента.</p> <p>Friedrich Wilhelm Raiffeisen оказывает брокерские, консультационные и аналитические услуги, предоставляет гибкие депозитные предложения и обслуживает счета в 11 валютах.</p> <p>Узнать об инвестиционных решениях Friedrich Wilhelm Raiffeisen <a class='inner-part__link' href='' target='_blank'>в Вене</a></p>",
+        "en":"<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae ab magni, culpa perspiciatis mollitia rem praesentium. Reprehenderit odit placeat architecto! Et a tenetur reprehenderit dignissimos eveniet assumenda deleniti eaque ducimus. <p>Узнать об инвестиционных решениях Friedrich Wilhelm Raiffeisen </p> <a class='inner-part__link' href='' target='_blank'>в Вене</a></p>",
+        "de":"<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae ab magni, culpa perspiciatis mollitia rem praesentium. Reprehenderit odit placeat architecto! Et a tenetur reprehenderit dignissimos eveniet assumenda deleniti eaque ducimus. <p>Узнать об инвестиционных решениях Friedrich Wilhelm Raiffeisen </p> <a class='inner-part__link' href='' target='_blank'>в Вене</a></p>"
+      },
       "image":"images/inner-illustrations-1.png"
     },
 
-    "solution_business":{
-      "title":"Решение для вашего бизнеса",
-      "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore sed, dicta incidunt corporis id necessitatibus voluptatibus, nesciunt ea, impedit eius animi nobis eum similique numquam tenetur laborum vel. Provident, cumque! <br><br> Узнать об инвестиционных решениях Friedrich Wilhelm Raiffeisen <a class='inner-part__link' href='' target='_blank'>в Вене</a>",
+    "get_financing": {
+      "title":{
+        "ru":"Получить финансирование",
+        "en":"Get financing",
+        "de":"Finanzierung erhalten"
+      },
+      "text":{
+        "ru":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio rem, incidunt consequatur qui illo, harum adipisci consequuntur repellendus optio aperiam esse sit fugit omnis! Voluptates sint voluptas architecto. Blanditiis, expedita?<br><br> Узнать об инвестиционных решениях Friedrich Wilhelm Raiffeisen <a class='inner-part__link' href='' target='_blank'>в Вене</a>",
+        "en":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio rem, incidunt consequatur qui illo, harum adipisci consequuntur repellendus optio aperiam esse sit fugit omnis! Voluptates sint voluptas architecto. Blanditiis, expedita?<br><br> Узнать об инвестиционных решениях Friedrich Wilhelm Raiffeisen <a class='inner-part__link' href='' target='_blank'>в Вене</a>",
+        "de":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio rem, incidunt consequatur qui illo, harum adipisci consequuntur repellendus optio aperiam esse sit fugit omnis! Voluptates sint voluptas architecto. Blanditiis, expedita?<br><br> Узнать об инвестиционных решениях Friedrich Wilhelm Raiffeisen <a class='inner-part__link' href='' target='_blank'>в Вене</a>"
+      },
       "image":"images/inner-illustrations-2.png"
     },
-    
-    "banking_service":{
-      "title":"Банковское обслуживание",
-      "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem recusandae et quod beatae quae delectus consequatur officia dolor illum earum, perspiciatis dolores, odit quisquam cumque, doloribus non magni accusamus alias.<br><br> Узнать об инвестиционных решениях Friedrich Wilhelm Raiffeisen <a class='inner-part__link' href='' target='_blank'>в Вене</a>",
+
+    "solution_business":{
+      "title":{
+        "ru":"Решение для вашего&nbsp;бизнеса",
+        "en":"Solution for your business",
+        "de":"Lösung für Ihr Unternehmen"
+      },
+      "text":{
+        "ru":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore sed, dicta incidunt corporis id necessitatibus voluptatibus, nesciunt ea, impedit eius animi nobis eum similique numquam tenetur laborum vel. Provident, cumque! <br><br> Узнать об инвестиционных решениях Friedrich Wilhelm Raiffeisen <a class='inner-part__link' href='' target='_blank'>в Вене</a>",
+        "en":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis iure, expedita eos incidunt beatae animi veniam repudiandae ab ducimus neque vel corporis aspernatur ut suscipit consequuntur hic. Nihil sint, facilis.",
+        "de":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit recusandae, nesciunt voluptatum cum quae culpa voluptates, porro, sit suscipit repellendus illo iusto ipsa commodi, corrupti eveniet! Nam doloremque, necessitatibus obcaecati."
+      },
       "image":"images/inner-illustrations-3.png"
     },
     
-    "solutions_and_consulting":{
-      "title":"Решения для вашей семьи и&nbsp;консалтинг",
-      "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis porro sunt aperiam saepe magni. Voluptatum recusandae porro facilis, quae sint neque accusantium similique repellat fugiat expedita. Perferendis recusandae, nihil. Est.<br><br> Узнать об инвестиционных решениях Friedrich Wilhelm Raiffeisen <a class='inner-part__link' href='' target='_blank'>в Вене</a>",
+    "banking_service":{
+      "title":{
+        "ru":"Банковское обслуживание",
+        "en":"Banking service",
+        "de":"Bankdienst"
+      },
+      "text":{
+        "ru":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem recusandae et quod beatae quae delectus consequatur officia dolor illum earum, perspiciatis dolores, odit quisquam cumque, doloribus non magni accusamus alias.<br><br> Узнать об инвестиционных решениях Friedrich Wilhelm Raiffeisen <a class='inner-part__link' href='' target='_blank'>в Вене</a>",
+        "en":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis animi enim, nisi aspernatur voluptatem deleniti repellendus officia harum, reiciendis beatae sit dignissimos, architecto porro labore nemo suscipit, laboriosam? Repellendus, similique.",
+        "de":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, et! Minus assumenda non aperiam, consectetur dolore incidunt voluptatum, possimus reiciendis quos sit odio officia odit? Mollitia quam perferendis, ipsam excepturi?"
+      },
       "image":"images/inner-illustrations-4.png"
     },
     
+    "solutions_and_consulting":{
+      "title":{
+        "ru":"Решения для вашей семьи и консалтинг",
+        "en":"Solutions for your family and consulting",
+        "de":"Lösungen für Ihre Familie und Beratung"
+      },
+      "text":{
+        "ru":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis porro sunt aperiam saepe magni. Voluptatum recusandae porro facilis, quae sint neque accusantium similique repellat fugiat expedita. Perferendis recusandae, nihil. Est.<br><br> Узнать об инвестиционных решениях Friedrich Wilhelm Raiffeisen <a class='inner-part__link' href='' target='_blank'>в Вене</a>",
+        "en":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum ratione adipisci iste aspernatur ut aliquid repellat, magni sunt temporibus modi ducimus, similique assumenda accusamus animi deserunt blanditiis molestiae, repellendus quibusdam.",
+        "de":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit dicta obcaecati ex, tenetur numquam et rem alias! Vel inventore voluptatum animi voluptates aut nihil est provident eligendi in, eveniet harum."
+      },
+      "image":"images/inner-illustrations-5.png"
+    },
+    
     "about_us":{
-      "title":"О Нас",
-      "text":"Обслуживание в московском офисе Friedrich Wilhelm Raiffeisen сочетает в себе преимущества равления активами и осуществляют формирование индивидуального портфеля, отвечающего инвестиционным потребностям клиента. <br><br> Friedrich Wilhelm Raiffeisen оказывает брокерские, консультационные и аналитические услуги, предоставляет гибкие депозитные предложения и обслуживает счета в 11 валютах. <br><br> Узнать об инвестиционных решениях Friedrich Wilhelm Raiffeisen <a class='inner-part__link' href='' target='_blank'>в Вене</a>",
+      "title":{
+        "ru":"О нас",
+        "en":"About Us",
+        "de":"Über uns"
+      },
+      "text":{
+        "ru":"Обслуживание в московском офисе Friedrich Wilhelm Raiffeisen сочетает в себе преимущества равления активами и осуществляют формирование индивидуального портфеля, отвечающего инвестиционным потребностям клиента. <br><br> Friedrich Wilhelm Raiffeisen оказывает брокерские, консультационные и аналитические услуги, предоставляет гибкие депозитные предложения и обслуживает счета в 11 валютах. <br><br> Узнать об инвестиционных решениях Friedrich Wilhelm Raiffeisen <a class='inner-part__link' href='' target='_blank'>в Вене</a>",
+        "en":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure quibusdam optio modi magnam at quo distinctio architecto earum, excepturi dolor officiis molestiae expedita dolore. Maiores recusandae sunt cumque nobis debitis.",
+        "de":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus illo repellat tempora laboriosam nesciunt incidunt recusandae error? Repudiandae architecto officia culpa quisquam sit, odit at atque adipisci perferendis expedita! Molestiae!"
+      },
       "image":"images/inner-illustrations-1.png"
     },
     
     "contact_information":{
-      "title":"Контактная информация",
-      "text":"Обслуживание в московском офисе Friedrich Wilhelm Raiffeisen сочетает в себе преимущества индивидуального клиентского сервиса в Москве с инвестиционными решениями, разработанными в центральном офисе Группы Райффайзен в Вене. <br><br> Каждый клиент российскогнвестиционным потребностям клиента. <br><br> Friedrich Wilhelm Raiffeisen оказывает брокерские, консультационные и аналитические услуги, предоставляет гибкие депозитные предложения и обслуживает счета в 11 валютах. <br><br> Узнать об инвестиционных решениях Friedrich Wilhelm Raiffeisen <a class='inner-part__link' href='' target='_blank'>в Вене</a>",
+      "title":{
+        "ru":"Контактная информация",
+        "en":"Contact Information",
+        "de":"Kontaktinformationen"
+      },
+      "text":{
+        "ru":"Обслуживание в московском офисе Friedrich Wilhelm Raiffeisen сочетает в себе преимущества индивидуального клиентского сервиса в Москве с инвестиционными решениями, разработанными в центральном офисе Группы Райффайзен в Вене. <br><br> Каждый клиент российскогнвестиционным потребностям клиента. <br><br> Friedrich Wilhelm Raiffeisen оказывает брокерские, консультационные и аналитические услуги, предоставляет гибкие депозитные предложения и обслуживает счета в 11 валютах. <br><br> Узнать об инвестиционных решениях Friedrich Wilhelm Raiffeisen <a class='inner-part__link' href='' target='_blank'>в Вене</a>",
+        "en":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, laudantium tempora quos eos voluptatem adipisci consectetur nam placeat numquam maiores, distinctio dicta iusto assumenda, fugit quod soluta facilis velit maxime.",
+        "de":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam doloremque laboriosam hic at, minima non voluptatem. Et quo nisi reiciendis dignissimos sequi voluptatibus fugit deserunt velit qui, sunt error aut."
+      },
       "image":"images/inner-illustrations-2.png"
     }
   }
