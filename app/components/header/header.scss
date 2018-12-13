@@ -7,6 +7,15 @@
   padding: $PADDING-HEADER-TABLET $PADDING-HEADER-TABLET 0;
   box-sizing: border-box;
   position: relative;
+
+
+  .is_phone & {
+    background: yellow;
+  }
+   
+  .is_tablet & {
+    background: green;
+  }
    
   @include PHONE-N {
 

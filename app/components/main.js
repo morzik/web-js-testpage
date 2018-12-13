@@ -20,6 +20,17 @@ $(function(){
     .on('change-language', function(event, language){
       $(window).trigger("language-changed", language );
     })
+    .resize(function() {
+      $("body").toggleClass();
+      
+      if (window.innerWidth >= 1024 ){
+        $("body").toggleClass('is_desktop')
+      } else if (window.innerWidth < 768) {
+        $("body").toggleClass('is_phone')
+      } else {
+        $("body").toggleClass('is_tablet')
+      }
+    });
   ;
 
 });

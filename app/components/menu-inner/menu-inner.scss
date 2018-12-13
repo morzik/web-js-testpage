@@ -361,16 +361,18 @@ $list-p_desktop: 40px;
 
 .menu-inner__download{
 	
+    position: absolute;
+    top: auto;
+    bottom: 0;
+	
 	display: block;
 	width: 100%;
 	height: auto;
-	background: #f8f7f7;
-    bottom: 0;
-    top: auto;
-    box-sizing: border-box;
     padding: 33px 0 33px 56px;
-    position: absolute;
 	
+	background: #f8f7f7;
+	
+    box-sizing: border-box;
 	pointer-events: auto;
     text-decoration: none;
 
