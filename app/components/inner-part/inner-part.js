@@ -47,16 +47,16 @@ $(window).on("main:ready", function(event, data){
 	// разбор контента и скрытие, вызов коллбека
 	function fadeOut( callback ) {
 		is_animated = true;
-		TweenMax.to(".inner-part__title", 0.5, {
+		TweenMax.to(".inner-part__title", 0.3, {
 			opacity: 0,
 			ease: Circ.easeIn
 		});
-		TweenMax.to(".inner-part-column", 0.5, {
+		TweenMax.to(".inner-part-column", 0.3, {
 			y: -50,
 			opacity: 0,
 			ease: Circ.easeIn
 		});
-		TweenMax.to(".inner-part__image", 0.5, {
+		TweenMax.to(".inner-part__image", 0.3, {
 			x: 50,
 			opacity: 0,
 			ease: Circ.easeIn,
@@ -78,17 +78,17 @@ $(window).on("main:ready", function(event, data){
 		$element.empty().html( html );
 		
 		// анимация появления заголовок -> текст -> картинка
-		TweenMax.from(".inner-part__title", 0.5, {
+		TweenMax.from(".inner-part__title", 0.4, {
 			opacity: 0,
 			ease: Circ.easeOut
 		});
-		TweenMax.from(".inner-part-column", 0.5, {
+		TweenMax.from(".inner-part-column", 0.4, {
 			y: -50,
 			opacity: 0,
 			delay: 0.2,
 			ease: Circ.easeOut
 		});
-		TweenMax.from(".inner-part__image", 0.5, {
+		TweenMax.from(".inner-part__image", 0.4, {
 			x: 50,
 			opacity: 0,
 			delay: 0.4,
